@@ -1,0 +1,6 @@
+{
+  "name": "MediNest Hospital",
+  "description": "Modern hospital web application for MediNest Hospital featuring departments, specialist doctors directory, about overview, and instant appointment booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
