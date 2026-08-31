@@ -1,173 +1,156 @@
 # 🏥 MediNest – Hospital Web Application
 
 <p align="center">
-  <img src="https://img.shields.io/badge/MediNest-Hospital%20Web%20Application-0EA5E9?style=for-the-badge" alt="MediNest">
-</p>
-
-<p align="center">
-  <strong>AI-powered digital healthcare platform for smarter hospital services, appointment management, and patient assistance.</strong>
+  <strong>AI-powered digital healthcare platform for hospital services, appointment management, patient assistance, and intelligent healthcare support.</strong>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/CSS-663399?style=for-the-badge&logo=css&logoColor=white" alt="CSS">
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite">
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
   <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase">
-  <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Google Gemini">
+  <img src="https://img.shields.io/badge/Gemini_AI-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini AI">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Google_AI_Studio-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google AI Studio">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
 </p>
 
 ---
 
 ## 📌 Overview
 
-**MediNest** is a modern, responsive hospital web application designed to provide patients with a convenient and user-friendly digital healthcare experience.
+**MediNest** is a modern, responsive hospital web application designed to provide patients with a simple and convenient digital healthcare experience.
 
-The platform brings essential hospital services together in one place, allowing users to explore doctors and departments, book appointments, manage their appointments, access emergency information, and interact with AI-powered healthcare assistance.
+The platform brings important hospital services together in one place, allowing users to explore doctors and departments, view healthcare information, book appointments, manage appointments, access emergency information, and interact with AI-powered healthcare assistance.
 
-The application is built using a modern React and TypeScript architecture with Firebase services for authentication and data management, along with Google's Gemini API for intelligent healthcare assistance.
+MediNest combines modern frontend technologies with Firebase services and Google's Gemini AI to create an interactive digital healthcare platform.
+
+The application was developed with the assistance of **Google AI Studio and Gemini AI**, which were used as AI-assisted development tools during the creation and structuring of the application.
 
 ---
 
-## ✨ Key Features
+# ✨ Features
 
-### 🏥 Hospital Information
+## 🏥 Hospital Information
 
-MediNest provides users with essential hospital information through a clean and accessible interface.
+MediNest provides users with important hospital information through a clean and user-friendly interface.
+
+### Features
 
 - Hospital overview
 - Hospital services
 - Medical departments
 - Department details
+- Healthcare information
 - Contact information
 - Emergency information
-- Healthcare service information
 
 ---
 
-### 👨‍⚕️ Doctor Directory
+## 👨‍⚕️ Doctor Directory
 
-Users can explore doctors and learn more about available healthcare professionals.
+Users can explore doctors and learn more about healthcare professionals available through the hospital.
 
-**Features include:**
+### Features
 
-- Doctor listing
-- Doctor profiles
-- Medical specialties
-- Doctor details
-- Department association
-- Doctor availability information
+- Browse doctors
+- View doctor profiles
+- View medical specialties
+- View doctor details
+- Explore doctors by department
+- Access healthcare professional information
 
 ---
 
-### 📅 Appointment Booking
+## 📅 Appointment Booking
 
-MediNest provides a streamlined appointment booking experience.
+MediNest provides an easy-to-use appointment booking workflow.
 
 Users can:
 
 - Select a department
 - Select a doctor
 - Choose an appointment date
-- Choose an available time
-- Submit an appointment request
-- View their booked appointments
+- Select an appointment time
+- Submit an appointment
+- Review appointment information
+
+The goal is to simplify the process of connecting patients with healthcare professionals.
 
 ---
 
-### 👤 Patient Authentication
+## 👤 Patient Authentication
 
-The application includes user authentication functionality.
+The application provides authentication functionality for users.
 
-**Authentication features:**
+### Authentication Features
 
-- Patient registration
-- Patient login
+- User registration
+- User login
 - Google authentication
 - Authentication state management
 - User session handling
 
-Firebase Authentication is used to manage authentication.
+Firebase Authentication is used to manage user authentication.
 
 ---
 
-### 📋 Appointment Management
+## 📋 Appointment Management
 
-Authenticated users can access and manage their appointments.
+Authenticated users can view and manage their appointments.
 
 Users can:
 
-- View upcoming appointments
+- View booked appointments
 - Review appointment details
-- Manage existing bookings
-- Access their appointment history
+- Access upcoming appointments
+- Manage appointment information
 
 ---
 
-### 🚨 Emergency Assistance
+## 🚨 Emergency Assistance
 
-MediNest provides a dedicated emergency interface for quick access to important emergency-related information.
+MediNest includes an emergency assistance interface that provides quick access to important emergency-related information.
 
-The emergency functionality is designed to make critical hospital information easier to access.
+The feature is designed to make critical hospital information easier to find.
 
-> **Important:** This application is not a replacement for emergency medical services. In a real emergency, contact your local emergency services or a qualified healthcare professional.
+> ⚠️ **Emergency Disclaimer:** MediNest is not a replacement for emergency medical services. In a real emergency, contact your local emergency services or a qualified healthcare professional immediately.
 
 ---
 
-### 🤖 AI-Powered Healthcare Assistance
+# 🤖 AI-Powered Healthcare Assistance
 
 MediNest integrates **Google Gemini AI** to provide intelligent healthcare assistance.
 
-The AI functionality can help users with:
+The AI functionality is designed to help users with general healthcare-related questions and information.
 
-- General healthcare questions
-- Healthcare-related information
-- Basic guidance
-- Navigation through the application
-- General wellness information
+### AI Assistance Can Provide
 
-> ⚠️ **Medical Disclaimer:** AI-generated responses are provided for general informational purposes only. They should not be considered a substitute for professional medical advice, diagnosis, or treatment.
+- General healthcare information
+- Basic wellness guidance
+- Responses to healthcare-related questions
+- General informational assistance
+- Assistance with navigating healthcare information
 
----
+### ⚠️ Medical Disclaimer
 
-### 🔐 Firebase Integration
+AI-generated information is provided for general informational purposes only.
 
-Firebase provides several backend services for the application.
+It should **not** be considered a substitute for:
 
-The project uses Firebase for:
+- Professional medical advice
+- Medical diagnosis
+- Medical treatment
+- Prescription decisions
+- Emergency medical care
 
-- Authentication
-- Firestore database
-- User management
-- Appointment data
-- Application data persistence
-
----
-
-### 🛠️ Admin Portal
-
-MediNest includes an administrative interface for managing application-related information and appointment workflows.
-
-The admin functionality can be extended to support:
-
-- Appointment management
-- Doctor management
-- Department management
-- Patient management
-- Hospital operations
-
----
-
-### 📱 Responsive Design
-
-MediNest is designed to provide a consistent experience across different screen sizes.
-
-Supported layouts include:
-
-- 💻 Desktop
-- 💻 Laptop
-- 📱 Tablet
-- 📱 Mobile
+Users should consult qualified healthcare professionals for medical concerns.
 
 ---
 
@@ -178,25 +161,25 @@ Supported layouts include:
 <p>
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/CSS-663399?style=for-the-badge&logo=css&logoColor=white" alt="CSS">
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite">
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
 </p>
 
 ### React
 
-Used to build the application's interactive user interface and reusable components.
+Used to build the interactive user interface using reusable components.
 
 ### TypeScript
 
-Provides type safety and improved maintainability throughout the application.
+Used to provide type safety, maintainability, and better development experience.
+
+### CSS
+
+Used for application styling, layout, visual design, animations, and responsive behavior.
 
 ### Vite
 
-Used as the development server and build tool for the React application.
-
-### Tailwind CSS
-
-Used to create the responsive and modern user interface.
+Used as the development server and build tool for the application.
 
 ---
 
@@ -209,84 +192,86 @@ Used to create the responsive and modern user interface.
 
 ### Firebase Authentication
 
-Handles user authentication and account management.
+Used for:
+
+- User registration
+- User login
+- Google authentication
+- Authentication state management
 
 ### Firebase Firestore
 
-Provides cloud database functionality for storing and retrieving application data.
+Used for:
+
+- Cloud data storage
+- Appointment information
+- User-related application data
+- Data retrieval and persistence
 
 ---
 
-## 🤖 Artificial Intelligence
+# 🤖 Artificial Intelligence
 
 <p>
   <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Google Gemini">
+  <img src="https://img.shields.io/badge/Google_AI_Studio-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google AI Studio">
 </p>
 
-### Google Gemini API
+## Google Gemini
 
-Used to provide AI-powered healthcare assistance and intelligent responses within the application.
+Google Gemini is integrated into MediNest to provide AI-powered healthcare assistance and intelligent responses.
+
+## Google AI Studio
+
+**Google AI Studio** was used as an AI-assisted development environment during the creation of MediNest.
+
+It helped with:
+
+- Application generation
+- Component creation
+- Code structuring
+- Development assistance
+- AI-assisted problem solving
+- Application iteration
+
+The resulting application was configured, tested, run locally, and managed as a React/TypeScript project.
 
 ---
 
-## ⚙️ Development Tools
+# 🤝 AI-Assisted Development
 
-<p>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
-  <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-</p>
+MediNest was developed using an **AI-assisted development workflow**.
 
----
+Google AI Studio and Gemini were used to assist in creating and structuring parts of the application.
 
-# 📂 Project Structure
+The development workflow can be summarized as:
 
 ```text
-MediNest-Web-Application/
-│
-├── src/
-│   │
-│   ├── components/
-│   │   ├── About.tsx
-│   │   ├── AdminPortal.tsx
-│   │   ├── AppointmentBooking.tsx
-│   │   ├── AuthModal.tsx
-│   │   ├── DepartmentDetailModal.tsx
-│   │   ├── Departments.tsx
-│   │   ├── DoctorDetailModal.tsx
-│   │   ├── Doctors.tsx
-│   │   ├── EmergencyModal.tsx
-│   │   ├── Footer.tsx
-│   │   ├── Home.tsx
-│   │   ├── MyAppointmentsModal.tsx
-│   │   └── Navbar.tsx
-│   │
-│   ├── context/
-│   │   └── AuthContext.tsx
-│   │
-│   ├── data/
-│   │   └── hospitalData.ts
-│   │
-│   ├── lib/
-│   │   └── firebase.ts
-│   │
-│   ├── services/
-│   │   └── firebaseService.ts
-│   │
-│   ├── utils/
-│   │   └── appointmentStorage.ts
-│   │
-│   ├── App.tsx
-│   ├── index.css
-│   ├── main.tsx
-│   └── types.ts
-│
-├── .env.example
-├── .gitignore
-├── index.html
-├── package.json
-├── package-lock.json
-├── tsconfig.json
-├── vite.config.ts
-└── README.md
+                Google AI Studio
+                       │
+                       ▼
+              AI-Assisted Development
+                       │
+                       ▼
+              React + TypeScript
+                       │
+                       ▼
+                    CSS
+                       │
+                       ▼
+          Firebase Authentication
+                       │
+                       ▼
+              Firebase Firestore
+                       │
+                       ▼
+                Google Gemini AI
+                       │
+                       ▼
+                 Testing & Setup
+                       │
+                       ▼
+                     Git
+                       │
+                       ▼
+                   GitHub
