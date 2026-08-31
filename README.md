@@ -1,5 +1,7 @@
 # 🏥 MediNest – Hospital Web Application
+## 🌐 Live Demo
 
+👉 [Visit MediNest Web Application](https://medinest-web-application.vercel.app)
 <p align="center">
   <strong>AI-powered digital healthcare platform for hospital services, appointment management, patient assistance, and intelligent healthcare support.</strong>
 </p>
